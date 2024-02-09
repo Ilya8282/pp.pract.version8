@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bombezhka"
+    android:background="@drawable/backgr1"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="352dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginHorizontal="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t9"
+                android:textSize="20sp" />
+        </ScrollView>
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="280dp"
+        android:layout_marginTop="680dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/button_back"
+        android:contentDescription="назад"
+        android:onClick="backfrag1"
+        android:scaleType="fitXY"
+        android:src="@drawable/but2" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="135dp"
+        android:layout_marginTop="65dp"
+        android:text="@string/t3"
+        android:textColor="#C16227"
+        android:textSize="16sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="139dp">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="93dp"
+            android:layout_height="104dp"
+            android:layout_marginHorizontal="20dp"
+            android:padding="3dp"
+
+            android:src="@drawable/bombezhka2" />
+
+        <TextView
+            android:layout_width="267dp"
+            android:layout_height="match_parent"
+            android:text="@string/t3_name"
+            android:textSize="20dp" />
+    </TableRow>
+    <TableLayout
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:src="@drawable/a1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hp2"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:src="@drawable/a2" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/damage2"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:src="@drawable/a4" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/speed_dmg2"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:src="@drawable/a9" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/dal1"
+            android:textSize="20sp" />
+    </TableRow>
+    </TableLayout>
+</FrameLayout>
